@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEE Kenya - Empowering Communities</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+<body>
+    <header>
+        <h1>VEE Kenya</h1>
+        <p>Empowering villages through sustainable economic programs</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" data-aos="fade-up">
+        <img src="assets/vee-kenya-banner.jpg" alt="VEE Kenya Banner" class="banner">
+        <h2>Welcome to VEE Kenya</h2>
+        <p>Creating economic opportunities for sustainable development.</p>
+    </section>
+
+    <section id="projects" data-aos="fade-right">
+        <h2>Our Projects</h2>
+        <p>Explore our community-driven initiatives that create lasting impact.</p>
+    </section>
+
+    <section id="donate" data-aos="fade-left">
+        <h2>Support Our Mission</h2>
+        <div id="donation-tracker">
+            <p>Total Donations: <span id="total-donations">$0</span></p>
+            <button class="portal-btn" onclick="updateDonations(50)">Donate $50</button>
+        </div>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+        <h2>Contact Us</h2>
+        <p>Email: info@veekenya.org</p>
+    </section>
+
+    <script src="js/scripts.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            AOS.init();
+        });
+    </script>
+</body>
+</html>
+```
